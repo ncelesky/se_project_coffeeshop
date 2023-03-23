@@ -103,7 +103,7 @@
 
 .header__image {
   z-index: 0;
-  width: 546px; /*646px (in brief) not fitting, to large*/
+  width: 646px;
   position: absolute;
   right: 5px;
   top: 124px;
