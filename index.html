@@ -111,61 +111,63 @@
         </section>
         <section class="menu" id="menu"></section>
         <section class="reservation" id="book-a-table">
-          <h2 class="reservation__title">Book a table</h2>
-          <form class="reservation__form">
-            <fieldset class="form form__fieldset">
-              <label for="name" class="form form__label">Name *</label>
-              <input
-                type="text"
-                class="form__input"
-                id="name"
-                name="name"
-                placeholder="Name Surname"
-                required
-              />
-              <label for="number-of-guests" class="form__label"
-                >Number of guests *
-              </label>
-              <input
-                type="number"
-                class="form__input"
-                id="number-of-guests"
-                name="number-of-guests"
-                placeholder="1-8"
-                required
-              />
-              <label for="date" class="form__label">Date & time *</label>
-              <input
-                type="date"
-                class="form__input form__input_date"
-                id="date"
-                name="date"
-              />
-              <label for="your-email" class="form__label">Your email *</label>
-              <input
-                type="email"
-                class="form__input"
-                id="your-email"
-                name="your-email"
-                placeholder="email@email.com"
-                required
-              />
-            </fieldset>
-            <fieldset class="form__fieldset">
-              <button type="submit" class="form__button">Book a table</button>
-            </fieldset>
-            <fieldset class="form__fieldset">
-              <label for="terms-of-use" class="form__label-checkbox">
+          <div class="form-container">
+            <h2 class="reservation__title">Book a table</h2>
+            <form class="reservation__form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name *</label>
                 <input
-                  type="checkbox"
-                  class="form__input form__input-checkbox"
-                  name="terms-of-use"
-                  id="terms-of-use"
+                  type="text"
+                  class="form__input"
+                  id="name"
+                  name="name"
+                  placeholder="Name Surname"
                   required
-                />I agree with the terms of use
-              </label>
-            </fieldset>
-          </form>
+                />
+                <label for="number-of-guests" class="form__label"
+                  >Number of guests *
+                </label>
+                <input
+                  type="number"
+                  class="form__input"
+                  id="number-of-guests"
+                  name="number-of-guests"
+                  placeholder="1-8"
+                  required
+                />
+                <label for="date" class="form__label">Date & time *</label>
+                <input
+                  type="date"
+                  class="form__input form__input_date"
+                  id="date"
+                  name="date"
+                />
+                <label for="your-email" class="form__label">Your email *</label>
+                <input
+                  type="email"
+                  class="form__input"
+                  id="your-email"
+                  name="your-email"
+                  placeholder="email@email.com"
+                  required
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <button type="submit" class="form__button">Book a table</button>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="terms-of-use" class="form__label-checkbox">
+                  <input
+                    type="checkbox"
+                    class="form__input form__input-checkbox"
+                    name="terms-of-use"
+                    id="terms-of-use"
+                    required
+                  />I agree with the terms of use
+                </label>
+              </fieldset>
+            </form>
+          </div>
         </section>
         <section class="about" id="contacts"></section>
       </main>
