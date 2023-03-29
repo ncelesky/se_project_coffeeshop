@@ -6,11 +6,11 @@
   background-size: cover;
   background-position: center;
   background-color: #ffffff;
-  padding: 100px 0;
 }
 
 .menu__title {
   margin: auto;
+  padding-top: 100px;
   padding-bottom: 24px;
   width: 780px;
   text-align: center;
@@ -42,6 +42,7 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 100px;
+  padding-bottom: 100px;
 }
 
 .card {
