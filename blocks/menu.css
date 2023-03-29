@@ -6,11 +6,12 @@
   background-size: cover;
   background-position: center;
   background-color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .menu__title {
   margin: auto;
-  padding-top: 100px;
   padding-bottom: 24px;
   width: 780px;
   text-align: center;
@@ -42,7 +43,6 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 100px;
-  padding-bottom: 100px;
 }
 
 .card {
@@ -75,6 +75,6 @@
 }
 
 .card__list-divider {
-  flex-grow: 3;
+  flex-grow: 4;
   border-bottom: 1px solid #000;
 }
