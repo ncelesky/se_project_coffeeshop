@@ -1,19 +1,19 @@
 .nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end; /*removed space-between, gap in nav__links already creats the space needed*/
+  /*align-items: center; Removed, not necessary*/
 }
 
 .nav__links {
   display: flex;
-  justify-content: flex-end;
-  position: absolute;
+  /*justify-content: flex-end; Removed, not necessary*/
+  /*position: absolute; Removed, not necessary*/
   top: 30px;
   right: 80px;
   gap: 20px;
   list-style: none;
   padding: 0;
-  margin-top: 8px;
+  margin: 0; /*Removed margin-top not necessary*/
   margin-bottom: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -25,7 +25,8 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: bold;
+  /*font-weight: bold; Removed*/
+  font-family: inherit;
 }
 
 .nav__link:hover {

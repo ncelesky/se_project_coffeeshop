@@ -21,7 +21,10 @@
 
 .reservation__form {
   height: 100%;
+  margin: 0 auto;
+  max-width: 385px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center; Removed*/
+  padding-bottom: 120px; /*adding padding to push bottom*/
 }

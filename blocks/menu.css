@@ -3,7 +3,7 @@
   flex-direction: column;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: center; /*was having a issue with the background lining up, was told to use contain by the @tutors*/
   background-position: center;
   background-color: #ffffff;
   padding-top: 100px;
@@ -13,7 +13,7 @@
 .menu__title {
   margin: auto;
   padding-bottom: 24px;
-  width: 780px;
+  max-width: 780px; /*Corrected to max-width to not fix a text element*/
   text-align: center;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;

@@ -17,9 +17,9 @@
 .header__title {
   margin: 202px 0 0;
   max-width: 729px;
-  font-size: 66px;
-  line-height: 76px;
-  font-weight: 500;
+  /*font-size: 66px; Removed duplicate property
+  line-height: 76px; Removed duplicate property
+  font-weight: 500; Removed duplicate property*/
   padding: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -39,10 +39,10 @@
 }
 
 .header__description {
-  margin: 32px 0 0;
+  margin: 28px 0 0; /*corrected margin top*/
   max-width: 683px;
-  font-size: 20px;
-  line-height: 30px;
+  /*font-size: 20px; Removed duplicate property
+  line-height: 30px; Removed duplicate propertyb*/
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -60,8 +60,10 @@
 
 .header__footer {
   position: absolute;
-  left: 80px;
+  left: 0; /*reset to 0*/
   bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px; /*adding padding to prevent elements from being placed outside the page*/
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -76,20 +78,20 @@
   color: #838383;
 }
 
-.header__hours {
+/*.header__hours { Removed unnecessary CSS rule
   padding: 0;
   margin: 0;
-}
+}*/
 
 .header__paragraph {
-  padding: 0;
+  /*padding: 0; Removed, <p> elements have this by default*/
   margin: 0;
 }
 
-.header__address {
+/*.header__address { Removed unnecessary CSS rule
   position: absolute;
   right: 80px;
   top: 40px;
   padding: 0;
   margin: 0 80px 0 0;
-}
+}*/
