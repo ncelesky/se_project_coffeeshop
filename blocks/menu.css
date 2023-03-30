@@ -3,7 +3,7 @@
   flex-direction: column;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-color: #ffffff;
   padding-top: 100px;
@@ -59,6 +59,11 @@
   line-height: 30px;
 }
 
+.card__list {
+  margin: 0;
+  padding: 0;
+}
+
 .card__list-item {
   display: flex;
   margin: 0;
@@ -75,6 +80,6 @@
 }
 
 .card__list-divider {
-  flex-grow: 4;
+  flex-grow: 2;
   border-bottom: 1px solid #000;
 }
