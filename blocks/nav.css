@@ -4,14 +4,6 @@
   align-items: center;
 }
 
-.logo {
-  width: 125px;
-  height: 142px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-}
-
 .nav__links {
   display: flex;
   justify-content: flex-end;
