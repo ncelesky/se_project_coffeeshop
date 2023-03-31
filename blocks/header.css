@@ -51,7 +51,7 @@
 }
 
 .header__image {
-  z-index: 0;
+  z-index: 1;
   width: 646px;
   position: absolute;
   right: 5px;
