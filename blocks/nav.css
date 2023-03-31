@@ -8,8 +8,8 @@
   display: flex;
   /*justify-content: flex-end; Removed, not necessary*/
   /*position: absolute; Removed, not necessary*/
-  top: 30px;
-  right: 80px;
+  /*top: 30px;
+  right: 80px; Removed, element is statically positioned*/
   gap: 20px;
   list-style: none;
   padding: 0;

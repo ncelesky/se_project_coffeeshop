@@ -3,7 +3,7 @@
   flex-direction: column;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
-  background-size: center; /*was having a issue with the background lining up, was told to use contain by the @tutors*/
+  background-size: cover; /*was having a issue with the background lining up, was told to use contain by the @tutors* #meant use cover*/
   background-position: center;
   background-color: #ffffff;
   padding-top: 100px;
