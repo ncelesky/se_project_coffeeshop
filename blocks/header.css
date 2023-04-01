@@ -12,6 +12,7 @@
   background-size: cover;
   background-position: center;
   background-color: #ffffff;
+  z-index: 0; /*added z-index to fix overlap*/
 }
 
 .header__title {
@@ -51,7 +52,7 @@
 }
 
 .header__image {
-  z-index: 1;
+  z-index: -1; /*added negative z-index to fix overlap*/
   width: 646px;
   position: absolute;
   right: 5px;
